@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>slideToggle demo</title>
+		<style>
+			p {
+				width: 400px;
+			}
+		</style>
+
+		<link
+			rel="stylesheet"
+			href="../Sarai Coding Game/css style delete later.css"
+		/>
+		<script src="../Sarai Coding Game/srai test.js"></script>
+		<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+	</head>
+	<body>
+		<button>Toggle</button>
+		<p>
+			This is the paragraph to end all paragraphs. You should feel
+			<em>lucky</em> to have seen such a paragraph in your life.
+			Congratulations!
+		</p>
+		<div id="container">
+			<div id="box"></div>
+		</div>
+		<button id="left" onclick="left2()"></button>
+		<button id="right"></button>
+		<p>Hello, world!!</p>
+		<script>
+			$("button").on("click", function () {
+				$("p").slideToggle("slow");
+			});
+		</script>
+	</body>
+</html>
