@@ -15,5 +15,5 @@ class Book {
 	}
 }
 
-const book = Book("How to eat an egg", "Aidan H.", 5000, 4);
+const book = Book("How to eat an egg", "Billy Joe", 5000, 4);
 console.log();
